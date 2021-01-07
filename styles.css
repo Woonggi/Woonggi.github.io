@@ -5,9 +5,12 @@ h1 {
     font-size: 80px;
 }
 
-.menu-bar {
-    margin-right: 50px;
-    font-size: 20px;
+a:visited {
+    color: black;
+}
+
+.menu-bar:hover {
+    color:grey;
 }
 
 table{
@@ -16,14 +19,34 @@ table{
     border-spacing: 20px;
 }
 
-#introduction{
-    font-size: 20px;
-    vertical-align: top;
-    text-align: left;
+th {
+    font-size: 30px;
 }
 
 .sns_logo {
     width: 40px;
     height: 40px;
     padding:5px;
+}
+
+.sns_logo:hover {
+    filter:opacity(50%)
+}
+
+.menu-bar {
+    background-size: 100px 100px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+#introduction{
+    font-size: 20px;
+    vertical-align: top;
+    text-align: left;
+}
+
+#description {
+    font-size: 20px;
+    vertical-align: top;
+    text-align: left;
 }
