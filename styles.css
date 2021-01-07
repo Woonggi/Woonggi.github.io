@@ -1,0 +1,29 @@
+center {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+h1 {
+    font-size: 80px;
+}
+
+.menu-bar {
+    margin-right: 50px;
+    font-size: 20px;
+}
+
+table{
+    margin-left: 20%;
+    margin-right: 20%;
+    border-spacing: 20px;
+}
+
+#introduction{
+    font-size: 20px;
+    vertical-align: top;
+    text-align: left;
+}
+
+.sns_logo {
+    width: 40px;
+    height: 40px;
+    padding:5px;
+}
