@@ -9,18 +9,14 @@ a:visited {
     color: black;
 }
 
-.menu-bar:hover {
-    color:grey;
-}
-
 table{
     margin-left: 20%;
     margin-right: 20%;
     border-spacing: 20px;
 }
 
-th {
-    font-size: 30px;
+.menu-bar:hover {
+    color:grey;
 }
 
 .sns_logo {
@@ -34,7 +30,6 @@ th {
 }
 
 .menu-bar {
-    background-size: 100px 100px;
     margin-right: 50px;
     font-size: 20px;
 }
@@ -49,4 +44,13 @@ th {
     font-size: 20px;
     vertical-align: top;
     text-align: left;
+}
+
+#proj_image {
+    width: 500px;
+    height: 350px;
+}
+
+#projects_title {
+    font-size: 30px;
 }
