@@ -13,21 +13,20 @@
             <a style="text-decoration: underline;"class="menu-bar" href="projects.html">Projects</a>
             <a style="text-decoration: none;"class="menu-bar" href="https://docs.google.com/document/d/1Hlaa9gNlaswC4qNHakouF8vRQeVeeblc8XQlWN7RCT0/edit#heading=h.k7p8ylfw16ln">Resume</a>
         <hr>
-            <h2 href="https://github.com/Woonggi/Pong">Game Server Implementation with Pong</h2>
+            <h2>Fight!Space Exodus</h2>
             <table>
                 <tr>
-                <img style="width:900px; height:500px;"src="../images/projects/pong.png">
+                <img src="">
                 </tr>
                 <tr>
                 <p style="font-size: 20px; width:40%; text-align: left;">
-                I implemented the classic game 'Pong' with JavaScript and Node.js. The server handles users info, users' inputs and
-                simple physics for the ball and players. Server is made with Node.js and Socket.io, and the client is made with
-                Vanila JavaScript and
-                some HTML/CSS..
+                Fight! Space Exodus is 2D multiplayer shooting game played in space. Players shoot to destroy each others ship and once they
+                destroy the ship, it leads to power up of the ship. I made a custom packet class to transmit the data between server and game with both UDP and TCP.
+                TCP packet for player's connection and disconnection because these information never have to be dropped. But for the players' data such as positions, rotations, bullets etc
+                are being sent by UDP for the performance. The server is made with .NET and the game is made with Unity(C#), .NET.
                 </p>
-                <a href="https://github.com/Woonggi/Pong"><img class="sns_logo" src="../images/github_logo.png"></a>
-                <a href="https://www.youtube.com/watch?v=CAkqfaT20U8&t=8s&ab_channel=WoonggiEun"><img class="sns_logo" src="../images/youtube_logo.png"></a>
                 </tr>
+                <a href="https://github.com/Woonggi/SpaceExodus_Server"><img class="sns_logo" src="images/github_logo.png"></a>
             </table>
         </center>
     </body>
