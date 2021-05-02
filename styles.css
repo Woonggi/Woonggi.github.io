@@ -18,6 +18,10 @@ table{
     border-spacing: 20px;
 }
 
+.projects:hover {
+    color:grey;
+}
+
 .menu-bar:hover {
     color:grey;
 }
