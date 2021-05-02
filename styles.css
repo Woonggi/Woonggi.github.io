@@ -4,6 +4,9 @@ center {
 h1 {
     font-size: 80px;
 }
+a {
+    color: black;
+}
 
 a:visited {
     color: black;
